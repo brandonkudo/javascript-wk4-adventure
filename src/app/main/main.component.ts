@@ -20,5 +20,6 @@ export class MainComponent implements OnInit {
 
   goToDetailPage(clickedPage: Page) {
     this.router.navigate(['pages', clickedPage.id]);
+    console.log(this.pages[clickedPage.id]);
   };
 }

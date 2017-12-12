@@ -1,8 +1,8 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { MainComponent } from './main/main.component';
-import { LevelOneComponent } from './level-one/level-one.component';
-import { LevelTwoComponent } from './level-two/level-two.component';
+import { Good1Component } from './good1/good1.component';
+import { Bad1Component } from './bad1/bad1.component';
 
 const appRoutes: Routes = [
   {
@@ -10,12 +10,12 @@ const appRoutes: Routes = [
     component: MainComponent
   },
   {
-    path: 'pages/:id',
-    component: LevelOneComponent
+    path: 'pages/1',
+    component: Good1Component
   },
   {
     path: 'pages/:id',
-    component: LevelTwoComponent
+    component: Bad1Component
   }
 ];
 

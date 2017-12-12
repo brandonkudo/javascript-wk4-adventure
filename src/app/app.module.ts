@@ -6,15 +6,15 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import { routing } from './app.routing';
-import { LevelOneComponent } from './level-one/level-one.component';
-import { LevelTwoComponent } from './level-two/level-two.component';
+import { Good1Component } from './good1/good1.component';
+import { Bad1Component } from './bad1/bad1.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
-    LevelOneComponent,
-    LevelTwoComponent,
+    Good1Component,
+    Bad1Component,
   ],
   imports: [
     BrowserModule,
