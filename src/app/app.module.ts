@@ -4,19 +4,17 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { WelcomeComponent } from './welcome/welcome.component';
+import { MainComponent } from './main/main.component';
 import { routing } from './app.routing';
-import { AboutComponent } from './about/about.component';
-import { MarketplaceComponent } from './marketplace/marketplace.component';
-import { AlbumDetailComponent } from './album-detail/album-detail.component';
+import { LevelOneComponent } from './level-one/level-one.component';
+import { LevelTwoComponent } from './level-two/level-two.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomeComponent,
-    AboutComponent,
-    MarketplaceComponent,
-    AlbumDetailComponent
+    MainComponent,
+    LevelOneComponent,
+    LevelTwoComponent,
   ],
   imports: [
     BrowserModule,

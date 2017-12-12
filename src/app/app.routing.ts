@@ -1,26 +1,21 @@
 import { ModuleWithProviders } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { WelcomeComponent } from './welcome/welcome.component';
-import { AboutComponent } from './about/about.component';
-import { MarketplaceComponent } from './marketplace/marketplace.component';
-import { AlbumDetailComponent } from './album-detail/album-detail.component';
+import { MainComponent } from './main/main.component';
+import { LevelOneComponent } from './level-one/level-one.component';
+import { LevelTwoComponent } from './level-two/level-two.component';
 
 const appRoutes: Routes = [
   {
     path: '',
-    component: WelcomeComponent
+    component: MainComponent
   },
   {
-    path: 'about',
-    component: AboutComponent
+    path: 'pages/:id',
+    component: LevelOneComponent
   },
   {
-    path: 'marketplace',
-    component: MarketplaceComponent
-  },
-  {
-    path: 'albums/:id',
-    component: AlbumDetailComponent
+    path: 'pages/:id',
+    component: LevelTwoComponent
   }
 ];
 
