@@ -6,7 +6,7 @@ import { Page2Service} from '../page.service';
 @Component({
   selector: 'app-good1',
   templateUrl: './good1.component.html',
-  styleUrls: ['./good1.component.css'],
+  styleUrls: ['./good1.component.scss'],
   providers: [Page2Service]
 })
 export class Good1Component implements OnInit {

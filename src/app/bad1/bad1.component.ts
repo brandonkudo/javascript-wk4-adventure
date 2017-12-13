@@ -6,7 +6,7 @@ import { Page3Service} from '../page.service';
 @Component({
   selector: 'app-bad1',
   templateUrl: './bad1.component.html',
-  styleUrls: ['./bad1.component.css'],
+  styleUrls: ['./bad1.component.scss'],
   providers: [Page3Service]
 })
 export class Bad1Component implements OnInit {
